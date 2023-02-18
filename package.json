@@ -1,6 +1,6 @@
 {
   "name": "node-red-installer",
-  "version": "2.2.2",
+  "version": "3.1.0-beta.1",
   "main": "main.js",
   "build": {
     "appId": "com.electron.node-red",
@@ -53,12 +53,17 @@
     "build": "electron-builder"
   },
   "dependencies": {
-    "electron-log": "4.4.6",
-    "node-red": "2.2.2"
+    "electron-log": "5.0.0-beta.16",
+    "node-red": "3.1.0-beta.1",
+    "node-red-contrib-tensorflow": "0.4.2",
+    "node-red-dashboard": "3.3.1",
+    "node-red-debugger": "1.1.1",
+    "node-red-node-ui-webcam": "0.4.0",
+    "nrlint": "1.1.0"
   },
   "devDependencies": {
-    "electron": "17.0.0",
-    "electron-builder": "22.14.2"
+    "electron": "23.1.0",
+    "electron-builder": "23.6.0"
   },
   "description": "Node-RED installer",
   "keywords": [
